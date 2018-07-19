@@ -1,0 +1,136 @@
+.navbar{
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 0;
+	border-radius: 0;
+	background-color: #252523;
+	padding: 0% 1%;
+	font-size: 1.2em;
+	border: none;
+	transition: all .58s;
+}
+.navbar-header .navbar-brand {
+	float: left;
+	min-height: 55px;
+	padding: 15px 15px 15px;
+	color: #FFF;
+}
+
+
+.navbar-inverse .navbar-nav .navbar-header .navbar-brand a {
+	float: left;
+	min-height: 55px;
+	padding: 15px 15px 15px;
+	color: #000;
+}
+.navbar-inverse .navbar-nav  a, .navbar-inverse .navbar-nav  
+a, .navbar-inverse .navbar-nav  a {
+	color: #000;
+}
+
+.navbar-nav li:hover a:hover{
+	background-color: #3E3E3E;
+	color: #FFF !important;
+}
+.navbar-inverse .navbar-nav li a{
+	color: #FFF;
+}
+
+.navbar-header button{
+		background-color: #333 !important;
+}
+
+.carousel-caption{
+	top: 55%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+	letter-spacing: 20px;
+}
+.carousel-caption h1{
+	font-size: 350%;
+}
+.carousel-caption h3{
+	text-transform: none;
+	letter-spacing: 0.5px;
+}
+.carousel-caption h5{
+	text-transform: none;
+	letter-spacing: 0.5px;
+}
+.ct-js-btn-scroll{
+	color: #FFF;
+}
+.ct-js-btn-scroll:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.container{
+	margin: 4% auto;
+}
+#icon{
+	max-width: 200px;
+	margin: 1% auto;
+	border-radius: 50%;
+}
+#iconMsg{
+	margin-top: 2%;
+	letter-spacing: 0.5px;
+	line-height: 22px;
+}
+#Software{
+	width: 100%;
+	background-color: #252523;
+	color: #fff;
+	padding-bottom: 3.5%;
+}
+#TitleSoft{
+	margin-left: 5%;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+#language{
+	margin-top: 1%;
+}
+.fab{
+	padding: 20px;
+	font-size: 30px;
+	color: #000;
+	text-decoration: none !important;
+}
+.fab:hover{
+	color: #252523 !important;
+}
+
+footer{
+	width: 100%;
+	padding: 3%;
+	/*background-color: #252523;
+	color: #fff;*/
+}
+footer #github{
+	padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 50%;
+}
+@media (max-width: 600px){
+	#myCarousel{
+		padding-top: 10%;
+	}
+	.carousel-caption {
+		top:40%;
+	}
+	.carousel-caption h1{
+		font-size:165%;
+		padding-left: 10%;
+	}
+	.carousel-caption h3{
+		display: none;
+	}
+	.ct-js-btn-scroll{
+		display: none;
+	}
+	.navbar-header button{
+		background-color: #333 !important;
+	}
+}
