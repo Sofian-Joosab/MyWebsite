@@ -13,9 +13,7 @@ If you are running it in a test enviorment such as wamp or xampp you need to hav
 
 ## Authors
 
-* **Sofian Joosab** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Sofian Joosab** - *Initial work* - [Mywebsite](https://github.com/rockboy69/MyWebsite)
 
 ## Acknowledgments
 
